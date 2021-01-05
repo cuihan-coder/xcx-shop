@@ -1,0 +1,285 @@
+.card-num{
+	width: calc(100% - 40upx);
+	padding: 0 20upx;
+	line-height: 80upx;
+	font-size: 36upx;
+	color: #333;
+	background: #fff;
+}
+
+.top-tab{
+	width: 100%;
+	height: 80upx;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 10upx;
+}
+
+.tab-item{
+	width: 33%;
+	height: 50upx;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	padding: 12upx 0;
+	color: #666;
+	background: #fff;
+	text-align: center;
+	
+}
+
+.tab-item-click{
+	color: #fff;
+	background: #f889a7;
+}
+
+.tab-item text:nth-child(1){
+	font-size: 32upx;
+}
+.tab-item text:nth-child(2){
+	font-size: 26upx;
+}
+
+.huiyuan-tip{
+	width: calc(100% - 40upx);
+	height: 60upx;
+	padding: 0 20upx;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #fff;
+}
+
+.huiyuan-tip-red{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 4upx 6upx;
+	font-size: 26upx;
+	color: #fff;
+	background: #f889a7;
+	border-radius: 10upx;
+}
+
+.huiyuan-tip-red image{
+	width: 30upx;
+	height: 30upx;
+}
+
+.zhekou-tip{
+	font-size: 26upx;
+	color: #666;
+}
+
+.goto-class{
+	width: 40upx;
+	height: 100%;
+	background: url(http://www.zimuyunying.cn/static/xcx/jiantou.png) no-repeat;
+	background-size: 26upx;
+	background-position: center;
+}
+
+.product-item{
+	width: calc(100% - 40upx);
+	height: 188upx;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10upx 20upx 6upx 20upx;
+	margin-top: 4upx;
+	background: #fff;
+}
+
+.ckeck-class{
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	width: 60upx;
+	height: 100%;
+}
+
+.ckeck-class image{
+	width: 40upx;
+	height: 40upx;
+}
+
+
+.product-item-pic{
+	width: 160upx;
+	height: 100%;
+	padding: 0 40upx 0 20upx;
+}
+
+.product-item-pic image{
+	width: 160upx;
+	height: 100%;
+}
+
+.product-item-title{
+	width: 100%;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+	font-size: 28upx;
+	color: #333;
+}
+
+.product-item-attribute{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.product-item-attribute text{
+	margin-right: 30upx;
+	font-size: 24upx;
+	color: #999;
+}
+
+.number-block{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 14upx;
+}
+
+.title-class{
+	font-size: 32upx;
+	color: #333;
+}
+
+.count-btn{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.count-btn view{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50upx;
+}
+
+.count-btn input{
+	width: 100upx;
+	text-align: center;
+	font-size: 35upx;
+	color: #666;
+}
+.count-btn image{
+	width: 35upx;
+	height: 35upx;
+}
+
+.empty-placeorder{
+	height: 218upx;
+}
+
+.footer-class{
+	width: 100%;
+	height: 100upx;
+	position: fixed;
+	bottom: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #FFFFFF;
+	border-top: solid 1upx #dfdfdf;
+}
+
+
+.footer-left{
+	width: 40%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.footer-left image{
+	padding-left: 20upx;
+	width: 40upx;
+	height: 40upx;
+}
+
+.footer-left text{
+	padding-left: 18upx;
+	font-size: 34upx;
+	color: #666;
+}
+
+.footer-right{
+	height: 100%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.footer-price{
+	padding-right: 20upx;
+}
+
+
+.price-heji text:nth-child(1){
+	font-size: 34upx;
+	color: #666;
+}
+.price-heji text:nth-child(2){
+	padding-left: 10upx;
+	font-size: 26upx;
+	color: #f889a7;
+}
+
+.price-heji text:nth-child(3){
+	font-size: 34upx;
+	color: #f889a7;
+}
+
+.logistic-price{
+	font-size: 26upx;
+	color: #666;
+}
+
+.footer-gobuy{
+	width: 240upx;
+	height: 100%;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	font-size: 34upx;
+	color: #fff;
+	background: #f889a7;
+}
+
+.manjian-tip{
+	width: 100%;
+	height: 80upx;
+	position: fixed;
+	bottom: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #fde2e6;
+	margin-bottom: 100upx;
+}
+
+.manjian-tip text:nth-child(1){
+	margin-left: 40upx;
+	background: #f5b00e;
+	width: 86upx;
+	line-height: 38upx;
+	border-radius: 30upx;
+	text-align: center;
+	font-size:26upx ;
+	color: #fff;
+}
+
+.manjian-tip text:nth-child(2){
+	font-size:26upx ;
+	color: #666;
+}
+

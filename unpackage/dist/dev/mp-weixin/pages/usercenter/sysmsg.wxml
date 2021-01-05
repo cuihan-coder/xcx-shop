@@ -1,0 +1,1 @@
+<view class="content"><block wx:for="{{list}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view class="sysmsg-item"><view class="sysmsg-time">{{item.ctime}}</view><view class="sysmsg-content"><view>{{item.title}}</view><text>{{item.content}}</text><view>点击查看</view></view></view></block></view>

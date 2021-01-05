@@ -1,0 +1,187 @@
+.self-swiper{
+	width: 100%;
+	height: 480upx;
+}
+.self-swiper image{
+	width: 100%;
+	height: 480upx;
+}
+
+.padding-block{
+	width: calc(100% - 40upx);
+	padding: 20upx;
+	background: #fff;
+}
+
+.goods-title{
+	font-size: 32upx;
+	color: #333;
+}
+
+.goods-desc text{
+	font-size: 24upx;
+	color: #999;
+}
+
+.goods-price-yuan{
+	font-size: 24upx;
+	color: #333;
+}
+
+.goods-price-now{
+	font-size: 42upx;
+	color: #333;
+	padding: 0  10upx 0 10upx;
+}
+
+.size-block-class{
+	width: 100%;
+	height: 100upx;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.title-class{
+	font-size: 26upx;
+	color: #333;
+}
+.size-class{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 40upx;
+	padding: 0 4upx;
+	min-width: 100upx; 
+	height: 50upx;
+	background: #f3f3f3;
+	font-size: 24upx;
+	color: #666;
+}
+
+.color-class{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 40upx;
+	padding: 0 20upx;
+	height: 50upx;
+	background: #f3f3f3;
+	font-size: 24upx;
+	color: #666;
+}
+
+.click-class{
+	background: #fb88a5;
+	color: #fff;
+}
+
+.number-block{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.count-btn{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.count-btn view{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50upx;
+}
+
+.count-btn input{
+	width: 100upx;
+	text-align: center;
+	color: #666;
+}
+.count-btn image{
+	width: 40upx;
+	height: 40upx;
+}
+
+.footer-class{
+	position: fixed;
+	width: 100%;
+	height: 85upx;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 5upx 0;
+	bottom: 0upx;
+	background: #fff;
+	border-top: solid #dfdfdf 1upx;
+}
+
+.pic-font-class{
+	margin: 0 20upx;
+}
+.pic-font-class view:nth-child(1){
+	height: 40upx;
+	text-align: center;
+}
+
+.pic-font-class image{
+	width: 40upx;
+	height: 40upx;
+}
+
+
+.pic-font-class view:nth-child(2){
+	font-size: 26upx;
+	color: #666;
+}
+
+
+.addcard{
+	font-size: 36upx;
+	color: #f2aabf;
+	margin-left: 20%;
+}
+
+.gobuy{
+	margin-left: 20upx;
+	display: grid;
+	align-items: center;
+	height: 70upx;
+	padding: 0 20upx;
+	background: #f58aaf;
+	font-size: 36upx;
+	color: #fff;
+	text-align: center;
+	border-radius: 60upx;
+}
+.goods-info-title{
+	margin: 30upx;
+	color: #333;
+	font-size: 40upx;
+	text-align: center;
+}
+.goods-detail-img{
+}
+.goods-detail-img image{
+	width: 100%;
+}
+
+.goods-info-attribute{
+	color: #999;
+	font-size: 20rpx;
+}
+
+.float-cart-num{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 30upx;
+	line-height: 30upx;
+	border-radius: 50%;
+	background: #E45B10;
+	color: #fff;
+	font-size: 18upx;
+	text-align: center;
+}

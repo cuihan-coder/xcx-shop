@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/goodslist",
+    "pages/index/searchgoodslist",
+    "pages/stores/index",
+    "pages/goodsinfo/index",
+    "pages/goodsinfo/subbuy",
+    "pages/card/index",
+    "pages/usercenter/index",
+    "pages/usercenter/suborder",
+    "pages/usercenter/order",
+    "pages/usercenter/orderinfo",
+    "pages/usercenter/coupons",
+    "pages/usercenter/sysmsg",
+    "pages/usercenter/stores",
+    "pages/usercenter/storesInfo",
+    "pages/stores/service",
+    "pages/usercenter/consumption",
+    "pages/usercenter/feedback"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#1296db",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/home.png",
+        "selectedIconPath": "static/home_click.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/card/index",
+        "iconPath": "static/card-footer.png",
+        "selectedIconPath": "static/card-click.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/usercenter/index",
+        "iconPath": "static/user.png",
+        "selectedIconPath": "static/user_click.png",
+        "text": "用户"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

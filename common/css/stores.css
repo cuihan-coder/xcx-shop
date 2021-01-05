@@ -1,0 +1,270 @@
+.scroll-view-x{
+	width: 100%;
+	height: 260upx;
+	white-space: nowrap;
+	margin-top: 10upx;
+}
+
+.scroll-view-x image{
+	width: 80%;
+	height: 100%;
+	padding-right: 20upx;
+	border-radius: 10upx;
+}
+
+.content-block{
+	width: calc(100% - 40upx);
+	padding: 20upx;
+}
+.shopinfo{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: nowrap;
+}
+
+.shopinfo-left{
+	width: 80%;
+}
+.shopinfo-left text{
+	display: block;
+	padding-left: 40upx;
+	font-size: 26upx;
+	color: #333;
+}
+.shopinfo-left text:nth-child(1){
+	background: url(http://www.zimuyunying.cn/static/xcx/time.png) no-repeat;
+	background-position: left 0 center;
+	background-size:30upx ;
+}
+.shopinfo-left text:nth-child(2){
+	background: url(http://www.zimuyunying.cn/static/xcx/area.png) no-repeat;
+	background-position: left 0 center;
+	background-size:30upx ;
+	margin-top: 20upx;
+}
+
+.shopinfo-phone{
+	width: 30%;
+	height: 70upx;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	border-left: solid 1upx #ddd;
+}
+.shopinfo-phone image{
+	width: 40upx;
+	height: 40upx;
+}
+
+.appointment-scan{
+	width: 100%;
+	height: 100upx;
+	margin-top: 40upx;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #333;
+	font-size: 32upx;
+	font-weight: 500;
+	box-shadow: 0upx 10upx 25upx #ddd;
+
+}
+
+.appointment-bloack{
+	width: 49%;
+	border-right: solid 1upx #ddd;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.appointment-bloack image{
+	width: 40upx;
+	height: 40upx;
+}
+
+.appointment-bloack text{
+	padding-left: 10upx;
+}
+
+.scan-bloack{
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.scan-bloack image{
+	width: 32upx;
+	height: 32upx;
+}
+.scan-bloack text{
+	padding-left: 10upx;
+}
+
+
+.storesServ{
+	width: 100%;
+	height: 50upx;
+	margin: 30upx 0 20upx 0;
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: flex-start;
+	font-size: 36upx;
+	color: #333;
+}
+
+.storesServ view:nth-child(1){
+	display: inline-block;
+	width: 6upx;
+	height: 60%;
+	background: #fe6789;
+	border-radius: 10upx;
+}
+
+.storesServ view:nth-child(2){
+	padding-left: 10upx;
+}
+
+
+.item-list{
+	width: 100%;
+	display: flex;
+	flex-wrap: nowrap;
+	margin-bottom: 30upx;
+}
+.item-image{
+	width: 40%;
+}
+
+.item-image image{
+	width: 100%;
+	height: 100%;
+	border-radius: 10upx;
+}
+
+.item-desc{
+	width: calc(100% - 20upx);
+	padding-left: 20upx;
+}
+.item-desc-title{
+	width: 100%;
+	font-size: 32upx;
+	color: #333;
+}
+
+.item-desc-time{
+	width: 100%;
+	font-size: 28upx;
+	color: #666;
+	padding-top: 4upx;
+}
+
+.item-desc-sales{
+	width: 100%;
+	font-size: 28upx;
+	color: #666;
+}
+
+.item-desc-price{
+	padding-top: 12upx;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.item-desc-price .text-rmb{
+	font-size: 30upx;
+	color: #f34e4a;
+}
+
+.item-desc-price .text-rmb{
+	font-size: 26upx;
+	color: #f34e4a;
+}
+
+.item-desc-price .price{
+	font-size: 36upx;
+	color: #f34e4a;
+	padding-left: 6upx;
+}
+
+.item-desc-price .market-price{
+	display: inline-block;
+	font-size: 30upx;
+	color: #666;
+	padding-left: 20upx;
+}
+
+.pay-btn{
+	border: solid 1upx #f34e4a;
+	border-radius: 32upx;
+	color:  #f34e4a;
+	font-size: 30upx;
+	padding: 0upx 30upx;
+}
+
+.input-block{
+	padding: 0 36upx;
+	height: 156upx;
+	display: grid;
+	align-items: center;
+	background: #fff;
+	border-bottom: solid 4upx #F5F5F5;
+}
+
+.input-title{
+	font-size: 32upx;
+	color: #f889a7;
+}
+
+.input-class{
+	font-size: 28upx;
+	color: #999;
+}
+
+.input-plaorder-class{
+	font-size: 28upx;
+	color: #999;
+}
+
+.picker-class{
+	width: 100%;
+	height: 50upx;
+}
+
+.textarea-block{
+	padding: 0 36upx;
+	display: grid;
+	align-items: center;
+	background: #fff;
+	border-bottom: solid 4upx #F5F5F5;
+}
+
+.textarea-class{
+	padding-top: 16upx;
+	width: 100%;
+	height: 180upx;
+	font-size: 28upx;
+	color: #999;
+}
+
+.textarea-plaorder-class{
+	font-size: 28upx;
+	color: #999;
+}
+
+.textarea-title{
+	padding-top: 16upx;
+	font-size: 32upx;
+	color: #f889a7;
+}
+
+.yyue-btn{
+	width: 77%;
+	line-height: 70upx;
+	margin-top: 30upx;
+	font-size: 26upx;
+	color: #fff;
+	background: #f889a7;
+}

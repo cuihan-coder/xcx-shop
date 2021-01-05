@@ -1,0 +1,184 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationBarTextStyle":"white",
+				"navigationBarBackgroundColor":"#ff5a6b"
+			}
+		},
+		{
+			"path": "pages/index/goodslist",
+			"style": {
+				"navigationBarTitleText": "商品列表",
+				"navigationBarTextStyle":"white",
+				"navigationBarBackgroundColor":"#ff5a6b"
+			}
+		},
+		{
+			"path": "pages/index/searchgoodslist",
+			"style": {
+				"navigationBarTitleText": "商品列表",
+				"navigationBarTextStyle":"white",
+				"navigationBarBackgroundColor":"#ff5a6b"
+			}
+		}
+	    ,{
+            "path" : "pages/stores/index",
+            "style" : {
+				"navigationBarTitleText": "到店服务",
+				"navigationBarTextStyle":"black",
+				"navigationBarBackgroundColor":"#ffffff"
+			}
+        },
+		{
+		    "path" : "pages/goodsinfo/index",
+		    "style" : {
+				"navigationBarTitleText": "商品购物详情",
+				"navigationBarTextStyle":"black",
+				"navigationBarBackgroundColor":"#ffffff"
+			}
+		},
+		{
+		    "path" : "pages/goodsinfo/subbuy",
+		    "style" : {
+				"navigationBarTitleText": "支付",
+				"navigationBarTextStyle":"black",
+				"navigationBarBackgroundColor":"#ffffff"
+			}
+		},
+		
+		{
+		    "path" : "pages/card/index",
+		    "style" : {
+				"navigationBarTitleText": "购物车",
+				"navigationBarTextStyle":"black",
+				"navigationBarBackgroundColor":"#ffffff"
+			}
+		},
+		{
+		    "path" : "pages/usercenter/index",
+		    "style" : {
+				"navigationBarTitleText": "用户",
+				"navigationBarTextStyle":"black",
+				"navigationBarBackgroundColor":"#ffffff"
+			}
+		},
+		{
+		    "path" : "pages/usercenter/suborder",
+		    "style" : {
+				"navigationBarTitleText": "确认订单",
+				"navigationBarTextStyle":"black",
+				"navigationBarBackgroundColor":"#ffffff"
+			}
+		},
+		{
+		    "path" : "pages/usercenter/order",
+		    "style" : {
+				"navigationBarTitleText": "订单管理",
+				"navigationBarTextStyle":"black",
+				"navigationBarBackgroundColor":"#ffffff"
+			}
+		},
+		{
+		    "path" : "pages/usercenter/orderinfo",
+		    "style" : {
+				"navigationBarTitleText": "订单详情",
+				"navigationBarTextStyle":"black",
+				"navigationBarBackgroundColor":"#ffffff"
+			}
+		},
+		{
+		    "path" : "pages/usercenter/coupons",
+		    "style" : {
+				"navigationBarTitleText": "优惠券",
+				"navigationBarTextStyle":"black",
+				"navigationBarBackgroundColor":"#ffffff"
+			}
+		},
+		{
+		    "path" : "pages/usercenter/sysmsg",
+		    "style" : {
+				"navigationBarTitleText": "系统消息",
+				"navigationBarTextStyle":"black",
+				"navigationBarBackgroundColor":"#ffffff"
+			}
+		},
+		{
+		    "path" : "pages/usercenter/stores",
+		    "style" : {
+				"navigationBarTitleText": "服务预约列表",
+				"navigationBarTextStyle":"black",
+				"navigationBarBackgroundColor":"#ffffff"
+			}
+		},
+		{
+		    "path" : "pages/usercenter/storesInfo",
+		    "style" : {
+				"navigationBarTitleText": "服务预约内容",
+				"navigationBarTextStyle":"black",
+				"navigationBarBackgroundColor":"#ffffff"
+			}
+		},
+		{
+		    "path" : "pages/stores/service",
+		    "style" : {
+				"navigationBarTitleText": "服务预约",
+				"navigationBarTextStyle":"black",
+				"navigationBarBackgroundColor":"#ffffff"
+			}
+		},
+		{
+		    "path" : "pages/usercenter/consumption",
+		    "style" : {
+				"navigationBarTitleText": "消费记录",
+				"navigationBarTextStyle":"black",
+				"navigationBarBackgroundColor":"#ffffff"
+			}
+		},
+		{
+		    "path" : "pages/usercenter/feedback",
+		    "style" : {
+				"navigationBarTitleText": "意见反馈",
+				"navigationBarTextStyle":"black",
+				"navigationBarBackgroundColor":"#ffffff"
+			}
+		}
+		
+		
+		
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#F8F8F8"
+		
+	},
+	"tabBar": {
+	    "color": "#7A7E83",
+	    "selectedColor": "#1296db",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/index/index",
+	        "iconPath": "static/home.png",
+	        "selectedIconPath": "static/home_click.png",
+	        "text": "首页"
+	    }, 
+		{
+		    "pagePath": "pages/card/index",
+		    "iconPath": "static/card-footer.png",
+		    "selectedIconPath": "static/card-click.png",
+		    "text": "购物车"
+		},
+		{
+		    "pagePath": "pages/usercenter/index",
+		    "iconPath": "static/user.png",
+		    "selectedIconPath": "static/user_click.png",
+		    "text": "用户"
+		}
+		]
+	}
+}
